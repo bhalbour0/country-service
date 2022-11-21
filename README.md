@@ -1,4 +1,4 @@
-# country-service
+# Country Service
 
 ## Installation and Run
 
