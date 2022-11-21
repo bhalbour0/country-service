@@ -26,7 +26,7 @@ To get the server up and running:
 
 This server expose to REST API:
 
-- One which get several countries from this external API: https://restcountries.com/v3.1/all
-- Another one which return details of one countru from this external API: https://restcountries.com/v3.1/name/{name}
+- */countries*: Return several countries from this external API: https://restcountries.com/v3.1/all.
+- */countries/{name}*: Another one which return details of one country from this external API: https://restcountries.com/v3.1/name/{name}
 
 This server could be used with [the web application](https://github.com/bhalbour0/country-client)
