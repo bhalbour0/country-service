@@ -6,7 +6,7 @@ This is the backend server for the country service code assignement.
 
 To get the server up and running: 
 
-### Install the git client
+### Install the git client (if needed)
   
   Please refer to [Install Git](https://www.example.com) if you don't already have git locally.
   
@@ -16,11 +16,19 @@ To get the server up and running:
   
   `git clone https://github.com/bhalbour0/country-service.git`
   
-### To start up the server, open up a terminal inside the country-service folder, then run this command:
+### Build the project (not necessary)
+
+To build the project from sources, go inside the country-service folder, then run: 
+
+  `./mvnw clean install`
+
+### Run the project
+
+As the jar file was generated in the previous command, you can run the project with: 
   
   `./mvnw spring-boot:run`
   
-  You should see the server running in your terminal at http://localhost:8080.
+You should see the server running in your terminal at http://localhost:8080.
   
 ## Usage 
 
