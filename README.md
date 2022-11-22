@@ -35,6 +35,6 @@ You should see the server running in your terminal at http://localhost:8080.
 This server expose as REST API:
 
 - */countries*: Return several countries from this external API: https://restcountries.com/v3.1/all.
-- */countries/{name}*: Another one which return details of one country from this external API: https://restcountries.com/v3.1/name/{name}
+- */countries/{name}*: Return details of one country from this external API: https://restcountries.com/v3.1/name/{name}
 
 This server could be used with [the web application](https://github.com/bhalbour0/country-client)
