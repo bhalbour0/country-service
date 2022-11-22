@@ -16,7 +16,7 @@ To get the server up and running:
   
   `git clone https://github.com/bhalbour0/country-service.git`
   
-### Build the project (not necessary)
+### Build the project
 
 To build the project from sources, go inside the country-service folder, then run: 
 
