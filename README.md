@@ -8,7 +8,7 @@ To get the server up and running:
 
 ### Install the git client (if needed)
   
-  Please refer to [Install Git]([https://www.example.com](https://github.com/git-guides/install-git)) if you don't already have git locally.
+  Please refer to [Install Git](https://github.com/git-guides/install-git) if you don't already have git locally.
   
 ### Download and install the project
   
