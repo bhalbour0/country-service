@@ -1,7 +1,6 @@
 package com.code.assignement.country.dto.response;
 
 import com.code.assignement.country.dto.FindCountriesItem;
-import com.fasterxml.jackson.annotation.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

@@ -16,7 +16,7 @@ public class CountryController {
     private final CountryWebClient webClient = new CountryWebClient();
 
     /**
-     * Get all countries from <a href="https://restcountries.com/">this api</a>
+     * Get all countries from <a href="https://restcountries.com/">this website</a>.
      * @return all countries
      */
     @GetMapping
@@ -27,9 +27,9 @@ public class CountryController {
     }
 
     /**
-     * Get a country by a name from <a href="https://restcountries.com/">this api</a>
+     * Get a country by a name from <a href="https://restcountries.com/">this website</a>.
      * @param name name of the country
-     * @return all countries
+     * @return a country
      */
     @GetMapping("/{name}")
     public Mono<FindCountryByNameResponse> findCountryByName(@PathVariable String name) {

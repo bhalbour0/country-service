@@ -1,10 +1,9 @@
 package com.code.assignement.country.dto.response;
 
-import com.fasterxml.jackson.annotation.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import com.fasterxml.jackson.annotation.JsonGetter;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.fasterxml.jackson.annotation.JsonSetter;
 
 import java.util.List;
 import java.util.Map;
